@@ -4,12 +4,114 @@
   <head>
     <title>Code Copy #1</title>
     
-    <!--Put your CSS inside this style tag-->
     <style>
+      img#avatar {
+        border-radius: 100%;
+        border: 1px solid lightgray;
+        width: 20px;
+      }
+      img.icons {
+        width: 20px;
+        margin-top: 6px;
+      }
+      img.icons2 {
+        width: 20px;
+        margin-top: 13px;
+      }
+      div.main {
+        width: 650px;
+        height: 750px;
+        margin: auto;
+      }
+      div.header {
+        border: 1px solid lightgray;
+        height: 25px;
+        padding: 10px;
+        font-size: 15px;
+      }
+      p.username {
+        font-size: 15px;
+        margin: auto;
+      }
+      div.img {
+        border: 1px solid lightgray;
+        background-image: url(img/roots.jpeg);
+        background-size: cover;
+        height: 750px;
+      }
+      div.footer {
+        border: 1px solid lightgray;
+        height: 75px;
+        padding: 13px;
+        font-size: 14px;
+        line-height: 5px;
+        display: block;
+      }
+      p.comment {
+        font-size: 12px;
+      }
+      hr {
+        border: 0;
+        height: 1px;
+        background-color: lightgray;
+      }
+      p.gray {
+        color: gray;
+      }
+      div.name {
+        float: left;
+        width: 30px;
+        height: 25px;
+        display: inline-block;
+        margin: auto;
+      }
+      div.name2 {
+        float: left;
+        width: 140px;
+        height: 30px;
+        display: inline-block;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+      }
+      div.right {
+        float: right;
+        width: 30px;
+        display: inline-block;
+        color: gray;
+      }
+      div.clear {
+        clear: left;
+      }
     </style>
   </head>
   
   <body>
+    <div class="main">
+      <div class="header">
+        <div class="name">
+          <img id="avatar" src="img/monadraven.jpeg" alt="D">
+        </div>
+        <div class="name2">
+                <p class="username"><strong>Dankest Theorem</strong><br>Dankest Theorem</p>
+        </div>
+        <div class="right">time</div>
+        <div class="clear"></div>
+      </div>
+      <div class="img">
+      </div>
+      <div class="footer">
+            <p class="comment"><strong>13 likes</strong></p>
+      <p class="comment">Dank leaf placement, got into bronze</p>
+        <hr>
+        <div class="name">
+          <img class="icons" src="img/ig_heart.png">
+        </div>
+        <div class="name2">
+          <p class="gray">Add a comment...</p>
+        </div>
+        <div class="right"><img class="icons2" src="img/ig_dots.png"></div>
+        <div class="clear"></div>
+      </div>
+    </div>
   </body>
-  
 </html>
